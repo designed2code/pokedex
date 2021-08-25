@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+body{
+    background: #EC661E;
+background: -moz-linear-gradient(left, #EC661E 0%, #61146F 49%, #AB1D4F 100%);
+background: -webkit-linear-gradient(left, #EC661E 0%, #61146F 49%, #AB1D4F 100%);
+background: linear-gradient(to right, #EC661E 0%, #61146F 49%, #AB1D4F 100%);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.pokemon{
+    margin: 20px;
+    box-shadow: 5px 5px 15px 5px #5c5555;
+    border-radius: 30px;
+    background-color: #90ee90
+}
+.image-container{
+    width: 300px;
+    height: 300px;
+    /* border: 3px dotted blue; */
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    
+}
+
+.poke-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*  */
+span{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    background-color: beige;
+    padding: 4px;
+    font-size: 16px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3;
+    
+}
+.type{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.go-btn{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: auto;
+}
