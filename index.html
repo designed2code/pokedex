@@ -9,11 +9,41 @@
 </head>
 <body id="my-scrollbar" onload="myFunction()">
     <div id="loading"></div>
+
+   
     <h1>PokeDex</h1>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('fire')">Fire</button>
+        <button class="btn" onclick="filterSelection('grass')">Grass</button>
+        <button class="btn" onclick="filterSelection('electric')">Electric</button>
+        <button class="btn" onclick="filterSelection('water')">Water</button>
+        <button class="btn" onclick="filterSelection('ground')">Ground</button>
+        <button class="btn" onclick="filterSelection('rock')">Rock</button>
+        <button class="btn" onclick="filterSelection('poison')">Poison</button>
+        <button class="btn" onclick="filterSelection('bug')">Bug</button>
+        <button class="btn" onclick="filterSelection('dragon')">Dragon</button>
+        <button class="btn" onclick="filterSelection('psychic')">Psychic</button>
+        <button class="btn" onclick="filterSelection('fighting')">Fighting</button>
+        <button class="btn" onclick="filterSelection('normal')">Normal</button>
+
+      </div>
     <div class="poke-container" id="poke_container">
-        
     </div>
 
     <script src="app.js"></script>
+    <script src="test.js"></script>
+    <!-- <div class="poke-container">
+        <div class="pokemon">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="info">
+                <h3></h3>
+                <span></span>
+                <div></div>
+            </div>
+        </div>
+    </div> -->
 </body>
 </html>

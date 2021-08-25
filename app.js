@@ -52,8 +52,8 @@ function createPokemonCard(pokemon){
     const type = pokemon.types[0].type.name
     const color = colors[type]
     pokemonEl.style.backgroundColor = color
-    
-    
+   pokemonEl.classList.add(type) //ADDED NEW
+
     const pokeInnerHTML = 
     `<div class="image-container">
 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png" alt=""/>
