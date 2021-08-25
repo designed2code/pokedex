@@ -1,3 +1,8 @@
+// Preloader
+const preloader = document.getElementById('loading');
+setTimeout(function myFunction() {
+    preloader.style.display = 'none';
+}, 4000)
 const poke_container = document.getElementById('poke_container')
 const poke_number = 150; // total number of pokemons
 const colors = {
