@@ -1,3 +1,4 @@
+// REFERRED https://www.w3schools.com/howto/howto_js_filter_elements.asp
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
